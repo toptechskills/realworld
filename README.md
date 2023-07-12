@@ -16,7 +16,7 @@ To install and run locally:
 python -m venv venv
 
 # Activate the virtualenv for the current shell
-source venv/bin/activate
+. venv/bin/activate
 
 # Install the required python packages with pip
 pip install -r requirements.txt
