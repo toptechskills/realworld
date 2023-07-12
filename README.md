@@ -12,8 +12,6 @@ Tech Stack:
 To install and run locally:
 
 ```bash
-git clone https://github.com/danjac/realworld/ && cd realworld
-
 python -m venv venv
 
 source venv/bin/activate
