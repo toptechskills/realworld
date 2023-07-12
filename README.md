@@ -12,13 +12,20 @@ Tech Stack:
 To install and run locally:
 
 ```bash
+# Create the python virtualenv
 python -m venv venv
 
+# Activate the virtualenv for the current shell
 source venv/bin/activate
 
+# Install the required python packages with pip
 pip install -r requirements.txt
 
-./manage.py migrate && ./manage.py runserver
+# Run the DB migrations
+./manage.py migrate
+
+# Start the application
+./manage.py runserver
 ```
 
 
