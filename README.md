@@ -24,9 +24,11 @@ pip install -r requirements.txt
 # Run the DB migrations
 ./manage.py migrate
 
-# Start the application
-./manage.py runserver
-```
+# Start the application listening at localhost:8000
+./manage.py runserver localhost:8000
 
+# Curl the http endpoint (or open it in your browser)
+curl http://localhost:8000
+```
 
 **Note: this is just a reference implementation and is not intended for production use.**
